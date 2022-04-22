@@ -1,0 +1,57 @@
+body {
+    background-image: url(./fase1rick.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+
+}
+
+
+@font-face {
+    font-family: 'American Captain';
+    src: url ('American Captain.ttf') format('truetype');
+}
+
+.container {
+
+    width: 70%;
+    height: 30vh;
+    font-family: 'American Captain', Times, serif;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    opacity: background 100%;
+    background-color: rgba(255, 255, 255, 0.700);
+    padding: 6em;
+    border-radius: 20px;
+
+
+
+}
+
+.introducao {
+    font-weight: bold;
+    width: 100%;
+}
+
+
+.opcoes {
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+    text-align: center;
+    padding: 2em;
+    width: 100%;
+
+}
